@@ -109,3 +109,23 @@ link.classList.add("active");
 
 });
 
+const menu = document.getElementById("menu-toggle");
+
+const nav = document.getElementById("nav");
+
+menu.onclick = function(){
+
+nav.classList.toggle("active");
+
+if(menu.innerHTML==="☰"){
+
+menu.innerHTML="✕";
+
+}
+else{
+
+menu.innerHTML="☰";
+
+}
+
+};
